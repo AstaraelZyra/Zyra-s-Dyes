@@ -1,5 +1,7 @@
 package com.astaraelzyra.zyrasdyes;
 
+import com.astaraelzyra.zyrasdyes.block.ModBlocks;
+import com.astaraelzyra.zyrasdyes.item.ModCreativeModeTabs;
 import com.astaraelzyra.zyrasdyes.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,7 +38,10 @@ public class ZyrasDyes {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -68,6 +73,27 @@ public class ZyrasDyes {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.COOL_LIGHT_GRAY_DYE);
         }
+
+
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.INDIGO_CONCRETE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.BERRY_CONCRETE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SCARLET_CONCRETE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SEAFOAM_CONCRETE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.LAVENDER_CONCRETE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.COOL_LIGHT_GRAY_CONCRETE);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

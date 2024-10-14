@@ -4,5 +4,15 @@
   "item.zyrasdyes.scarlet_dye": "Scarlet Dye",
   "item.zyrasdyes.seafoam_dye": "Seafoam Dye",
   "item.zyrasdyes.lavender_dye": "Lavender Dye",
-  "item.zyrasdyes.cool_light_gray_dye": "Cool Light Gray Dye"
+  "item.zyrasdyes.cool_light_gray_dye": "Cool Light Gray Dye",
+
+  "block.zyrasdyes.indigo_concrete": "Indigo Concrete",
+  "block.zyrasdyes.berry_concrete": "Berry Concrete",
+  "block.zyrasdyes.scarlet_concrete": "Scarlet Concrete",
+  "block.zyrasdyes.seafoam_concrete": "Seafoam Concrete",
+  "block.zyrasdyes.lavender_concrete": "Lavender Concrete",
+  "block.zyrasdyes.cool_light_gray_concrete": "Cool Light Gray Concrete",
+
+  "creativetab.zyrasdyes.zyras_dyes_all_items": "Zyra's Dyes All Items",
+  "creativetab.zyrasdyes.dye_items": "Dyes"
 }
