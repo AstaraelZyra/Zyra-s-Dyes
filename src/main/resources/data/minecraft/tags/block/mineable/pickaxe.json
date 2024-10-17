@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "zyrasdyes:indigo_concrete",
+    "zyrasdyes:berry_concrete",
+    "zyrasdyes:seafoam_concrete",
+    "zyrasdyes:cool_light_gray_concrete",
+    "zyrasdyes:scarlet_concrete",
+    "zyrasdyes:lavender_concrete",
+
+    "zyrasdyes:tanzanite_ore",
+    "zyrasdyes:deepslate_tanzanite_ore",
+    "zyrasdyes:tanzanite_block"
+  ]
+}

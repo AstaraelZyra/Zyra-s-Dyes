@@ -13,6 +13,25 @@
   "block.zyrasdyes.lavender_concrete": "Lavender Concrete",
   "block.zyrasdyes.cool_light_gray_concrete": "Cool Light Gray Concrete",
 
+  "block.zyrasdyes.indigo_concrete_powder": "Indigo Concrete Powder",
+  "block.zyrasdyes.berry_concrete_powder": "Berry Concrete Powder",
+  "block.zyrasdyes.scarlet_concrete_powder": "Scarlet Concrete Powder",
+  "block.zyrasdyes.seafoam_concrete_powder": "Seafoam Concrete Powder",
+  "block.zyrasdyes.lavender_concrete_powder": "Lavender Concrete Powder",
+  "block.zyrasdyes.cool_light_gray_concrete_powder": "Cool Light Gray Concrete Powder",
+
+  "block.zyrasdyes.indigo_stained_glass": "Indigo Stained Glass",
+  "block.zyrasdyes.berry_stained_glass": "Berry Stained Glass",
+  "block.zyrasdyes.scarlet_stained_glass": "Scarlet Stained Glass",
+  "block.zyrasdyes.seafoam_stained_glass": "Seafoam Stained Glass",
+  "block.zyrasdyes.lavender_stained_glass": "Lavender Stained Glass",
+  "block.zyrasdyes.cool_light_gray_stained_glass": "Cool Light Gray Stained Glass",
+
+  "block.zyrasdyes.tanzanite_ore": "Tanzanite Ore",
+  "block.zyrasdyes.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "item.zyrasdyes.tanzanite": "Tanzanite",
+  "block.zyrasdyes.tanzanite_block": "Block of Tanzanite",
+
   "creativetab.zyrasdyes.zyras_dyes_all_items": "Zyra's Dyes All Items",
   "creativetab.zyrasdyes.dye_items": "Dyes"
 }

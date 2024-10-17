@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zyrasdyes:tanzanite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "zyrasdyes:indigo_dye"
+  }
+}

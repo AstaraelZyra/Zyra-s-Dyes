@@ -23,6 +23,9 @@ public class ModItems {
     public static final DeferredItem<Item> COOL_LIGHT_GRAY_DYE = ITEMS.register("cool_light_gray_dye",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> TANZANITE = ITEMS.register("tanzanite",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

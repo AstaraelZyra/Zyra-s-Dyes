@@ -73,6 +73,9 @@ public class ZyrasDyes {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.COOL_LIGHT_GRAY_DYE);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TANZANITE);
+        }
 
 
         if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
@@ -92,6 +95,57 @@ public class ZyrasDyes {
         }
         if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
             event.accept(ModBlocks.COOL_LIGHT_GRAY_CONCRETE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.INDIGO_CONCRETE_POWDER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.BERRY_CONCRETE_POWDER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SCARLET_CONCRETE_POWDER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SEAFOAM_CONCRETE_POWDER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.LAVENDER_CONCRETE_POWDER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.COOL_LIGHT_GRAY_CONCRETE_POWDER);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.INDIGO_STAINED_GLASS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.BERRY_STAINED_GLASS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SCARLET_STAINED_GLASS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.SEAFOAM_STAINED_GLASS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.LAVENDER_STAINED_GLASS);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.COOL_LIGHT_GRAY_STAINED_GLASS);
+        }
+
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.TANZANITE_ORE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.DEEPSLATE_TANZANITE_ORE);
+        }
+
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TANZANITE_BLOCK);
         }
 
     }

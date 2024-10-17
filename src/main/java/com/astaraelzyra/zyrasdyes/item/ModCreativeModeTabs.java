@@ -34,6 +34,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SCARLET_CONCRETE);
                         output.accept(ModBlocks.COOL_LIGHT_GRAY_CONCRETE);
                         output.accept(ModBlocks.SEAFOAM_CONCRETE);
+
+                        output.accept(ModBlocks.BERRY_CONCRETE_POWDER);
+                        output.accept(ModBlocks.INDIGO_CONCRETE_POWDER);
+                        output.accept(ModBlocks.LAVENDER_CONCRETE_POWDER);
+                        output.accept(ModBlocks.SCARLET_CONCRETE_POWDER);
+                        output.accept(ModBlocks.COOL_LIGHT_GRAY_CONCRETE_POWDER);
+                        output.accept(ModBlocks.SEAFOAM_CONCRETE_POWDER);
+
+                        output.accept(ModBlocks.BERRY_STAINED_GLASS);
+                        output.accept(ModBlocks.INDIGO_STAINED_GLASS);
+                        output.accept(ModBlocks.LAVENDER_STAINED_GLASS);
+                        output.accept(ModBlocks.SCARLET_STAINED_GLASS);
+                        output.accept(ModBlocks.COOL_LIGHT_GRAY_STAINED_GLASS);
+                        output.accept(ModBlocks.SEAFOAM_STAINED_GLASS);
+
+                        output.accept(ModBlocks.TANZANITE_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_TANZANITE_ORE);
+                        output.accept(ModItems.TANZANITE);
+                        output.accept(ModBlocks.TANZANITE_BLOCK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> DYES_ITEMS_TAB = CREATIVE_MODE_TAB.register("dyes_items_tab",
