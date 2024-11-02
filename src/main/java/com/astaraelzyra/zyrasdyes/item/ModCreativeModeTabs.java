@@ -53,6 +53,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_TANZANITE_ORE);
                         output.accept(ModItems.TANZANITE);
                         output.accept(ModBlocks.TANZANITE_BLOCK);
+
+                        output.accept(ModItems.WATERING_CAN);
                     }).build());
 
     public static final Supplier<CreativeModeTab> DYES_ITEMS_TAB = CREATIVE_MODE_TAB.register("dyes_items_tab",

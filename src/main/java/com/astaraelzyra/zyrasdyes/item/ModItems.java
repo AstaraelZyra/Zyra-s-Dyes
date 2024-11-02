@@ -1,6 +1,7 @@
 package com.astaraelzyra.zyrasdyes.item;
 
 import com.astaraelzyra.zyrasdyes.ZyrasDyes;
+import com.astaraelzyra.zyrasdyes.item.custom.OxidizerItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -25,6 +26,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> TANZANITE = ITEMS.register("tanzanite",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> WATERING_CAN = ITEMS.register("watering_can",
+            () -> new OxidizerItem(new Item.Properties().durability(32)));
 
 
     public static void register(IEventBus eventBus) {
